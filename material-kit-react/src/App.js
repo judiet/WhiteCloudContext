@@ -3,7 +3,7 @@ import AWSAppSyncClient, { AUTH_TYPE } from 'aws-appsync';
 //
 import Amplify, { Auth } from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
-import awsconfig from './aws-exports';
+import awsconfig from '../aws-exports';
 // routes
 import Router from './routes';
 // theme
