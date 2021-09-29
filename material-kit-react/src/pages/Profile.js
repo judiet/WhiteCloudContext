@@ -1,19 +1,6 @@
 import React, { useState } from 'react';
-// Amplify
-import { AmplifyRequireNewPassword } from '@aws-amplify/ui-react';
 // material
-import {
-  Box,
-  Card,
-  Grid,
-  Container,
-  Stack,
-  Typography,
-  CardHeader,
-  Modal,
-  Button,
-  DialogTitle
-} from '@mui/material';
+import { Box, Card, Container, Stack, Typography, CardHeader, Button } from '@mui/material';
 // components
 import { Navigate, useNavigate } from 'react-router';
 import Page from '../components/Page';

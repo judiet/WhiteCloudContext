@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react';
 // AppSync
 import AWSAppSyncClient, { AUTH_TYPE } from 'aws-appsync';
 //
-import Amplify, { Auth, API, graphqlOperation } from 'aws-amplify';
+import Amplify, { Auth } from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import awsconfig from './aws-exports';
 // routes
@@ -13,8 +12,6 @@ import GlobalStyles from './theme/globalStyles';
 // components
 import ScrollToTop from './components/ScrollToTop';
 import { BaseOptionChartStyle } from './components/charts/BaseOptionChart';
-// query
-import * as queries from './graphql/queries';
 // ----------------------------------------------------------------------
 
 Amplify.configure(awsconfig);

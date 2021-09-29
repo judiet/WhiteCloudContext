@@ -113,7 +113,7 @@ export default function Blog() {
             favorite: 0,
             author: {
               name: value.author_id,
-              avatarUrl: `/static/mock-images/avatars/avatar_${i + 1}.jpg`
+              avatarUrl: `/static/mock-images/avatars/avatar_default.jpg`
             }
           }
         } else {
@@ -129,7 +129,7 @@ export default function Blog() {
             favorite: 0,
             author: {
               name: value.author_id,
-              avatarUrl: `/static/mock-images/avatars/avatar_${i + 1}.jpg`
+              avatarUrl: `/static/mock-images/avatars/avatar_default.jpg`
             }
           }
         }

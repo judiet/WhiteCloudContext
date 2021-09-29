@@ -1,16 +1,13 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 // Amplify
-import {
-  AmplifyAuthenticator,
-  AmplifyRequireNewPassword,
-  AmplifySignOut
-} from '@aws-amplify/ui-react';
+import { AmplifyAuthenticator, AmplifyRequireNewPassword } from '@aws-amplify/ui-react';
 import { Auth, Amplify } from 'aws-amplify';
 import { Box, styled } from '@mui/system';
 import { Container } from '@mui/material';
 import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
 import Page from '../components/Page';
-import { MotionContainer, varBounceIn } from '../components/animate';
+import { MotionContainer } from '../components/animate';
 import awsconfig from '../aws-exports';
 
 Amplify.configure(awsconfig);
