@@ -8,9 +8,6 @@ import { Container } from '@mui/material';
 import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
 import Page from '../components/Page';
 import { MotionContainer } from '../components/animate';
-import awsconfig from '../aws-exports';
-
-Amplify.configure(awsconfig);
 
 const RootStyle = styled(Page)(({ theme }) => ({
   display: 'flex',
